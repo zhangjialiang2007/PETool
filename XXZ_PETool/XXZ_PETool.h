@@ -41,6 +41,9 @@ void PrintOptionalPEHeader();
 //将FileBuffer拉伸为ImageBuffer
 extern "C" _declspec(dllexport) bool FileBuffer2ImageBuffer();
 
+//将ImageBuffer收缩为FileBuffer
+extern "C" _declspec(dllexport) bool ImageBuffer2FileBuffer();
+
 //向代码节空白区增加代码
 
 
